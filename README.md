@@ -31,4 +31,5 @@ Each object has Particular System. Particular System creates an explosion effect
 
 The camera follows our hex along the y axis.
 When hex falls into space and hits colliders, the game will be over and the Try Again button will appear on the screen. I used Enum to leave the game at the last camera position. There are 2 situations here as Start and GameOver. As long as it is not GameOver, it can explode shapes and the camera will follow the hex. If there is a gameover, the Try Again Panel will be activated. The camera will take the final y-axis position of hex before it is game over and will not be able to explode any shapes in the back. If I didn't use such a condition, I would continue to explode shapes even if I was finished in the game.
+
 ![finish](https://user-images.githubusercontent.com/59045890/95026701-e1079480-069b-11eb-8cf6-da81f94277ab.png)
