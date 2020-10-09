@@ -6,12 +6,17 @@ This is the first view of the project in Unity3D.
 ![screen](https://user-images.githubusercontent.com/59045890/95026228-99333e00-0698-11eb-9973-9fa4a4d67132.png)
 
 I created these shapes using unit squares by activating the Grids on PhotoShop. For now I have created 4 shapes and these are inside gameobjects. Each of them consists of a combination of different square shapes. For example smallL shape, square shape etc.
-![third](https://user-images.githubusercontent.com/59045890/95026458-304cc580-069a-11eb-9d5b-d38549b71acc.png)
+
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/59045890/95026458-304cc580-069a-11eb-9d5b-d38549b71acc.png" width="400" title="hierarchy">
+</p>
 
 For example; when I clicked the Shape1, I will see what shapes it consists of.
 
-![shape1](https://user-images.githubusercontent.com/59045890/95026473-4a86a380-069a-11eb-8843-170640cdfc0b.png)
-![shape1sd](https://user-images.githubusercontent.com/59045890/95026475-4c506700-069a-11eb-94ee-1cd9079369cb.png)
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/59045890/95026473-4a86a380-069a-11eb-8843-170640cdfc0b.png" title="shape1">
+  <img src="https://user-images.githubusercontent.com/59045890/95026475-4c506700-069a-11eb-94ee-1cd9079369cb.png" title="shape1">
+</p>
 
 When I run the program, my prefabs will appear on the screen. I wrote the appropriate code for a smoother transition between colors.
 
