@@ -14,6 +14,7 @@ For example; when I clicked the Shape1, I will see what shapes it consists of.
 ![shape1sd](https://user-images.githubusercontent.com/59045890/95026475-4c506700-069a-11eb-94ee-1cd9079369cb.png)
 
 When I run the program, my prefabs will appear on the screen. I wrote the appropriate code for a smoother transition between colors.
+
 ![second](https://user-images.githubusercontent.com/59045890/95026300-1363c280-0699-11eb-937c-90d70296f80d.png)
 
 #### Each object has Particular System. Particular System creates an explosion effect when exploding objects. I added Audio Source in addition to Particular System and every explosion to hear popping sound. Thus, when I detonate an object, I will see a visual explosion effect and hear an explosion sound.
@@ -28,8 +29,9 @@ When I run the program, my prefabs will appear on the screen. I wrote the approp
 The camera follows our hex along the y axis.
 When hex falls into space and hits colliders, the game will be over and the Try Again button will appear on the screen. I used Enum to leave the game at the last camera position. There are 2 situations here as Start and GameOver. As long as it is not GameOver, it can explode shapes and the camera will follow the hex. If there is a gameover, the Try Again Panel will be activated. The camera will take the final y-axis position of hex before it is game over and will not be able to explode any shapes in the back. If I didn't use such a condition, I would continue to explode shapes even if I was finished in the game.
 
-![finish](https://user-images.githubusercontent.com/59045890/95026701-e1079480-069b-11eb-8cf6-da81f94277ab.png)
-
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/59045890/95026701-e1079480-069b-11eb-8cf6-da81f94277ab.png" width="210" title="finish">
+</p>
 
 ### CubeBoom.cs
 #### Cube1, Cube2, dikey, Dikey3, smallL, tShape, UShape has CubeBoom.cs, BoxCollider (I arranged for every shape and added 2 BoxCollider to some shapes), Sprite Renderer to add figure, Rigidbody2D to fall according to the laws of physics.
