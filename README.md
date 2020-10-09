@@ -3,7 +3,9 @@ https://github.com/sumeyyenurozgenc/Unity3D-Six-Game-Example/issues
 Hi everyone. I am going to talk about six! game. I tried to write it with my code style. This game is 2D. therefore objects and added components will be 2-dimensional. For example Rigidbody2D and BoxCollider2D.
 
 This is the first view of the project in Unity3D.
-![screen](https://user-images.githubusercontent.com/59045890/95026228-99333e00-0698-11eb-9973-9fa4a4d67132.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59045890/95026228-99333e00-0698-11eb-9973-9fa4a4d67132.png" width="800" title="hierarchy">
+</p>
 
 I created these shapes using unit squares by activating the Grids on PhotoShop. For now I have created 4 shapes and these are inside gameobjects. Each of them consists of a combination of different square shapes. For example smallL shape, square shape etc.
 
@@ -20,7 +22,9 @@ For example; when I clicked the Shape1, I will see what shapes it consists of.
 
 When I run the program, my prefabs will appear on the screen. I wrote the appropriate code for a smoother transition between colors.
 
-![second](https://user-images.githubusercontent.com/59045890/95026300-1363c280-0699-11eb-937c-90d70296f80d.png)
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/59045890/95026300-1363c280-0699-11eb-937c-90d70296f80d.png" width="700" title="shape1">
+</p>
 
 #### Each object has Particular System. Particular System creates an explosion effect when exploding objects. I added Audio Source in addition to Particular System and every explosion to hear popping sound. Thus, when I detonate an object, I will see a visual explosion effect and hear an explosion sound.
 
