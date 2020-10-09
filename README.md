@@ -3,15 +3,11 @@ https://github.com/sumeyyenurozgenc/Unity3D-Six-Game-Example/issues
 Hi everyone. I am going to talk about six! game. I tried to write it with my code style. This game is 2D. therefore objects and added components will be 2-dimensional. For example Rigidbody2D and BoxCollider2D.
 
 This is the first view of the project in Unity3D.
-<p align="left">
-  <img src="https://user-images.githubusercontent.com/59045890/95026228-99333e00-0698-11eb-9973-9fa4a4d67132.png" width="800" title="hierarchy">
-</p>
+![firstView](https://user-images.githubusercontent.com/59045890/95026228-99333e00-0698-11eb-9973-9fa4a4d67132.png)
 
 I created these shapes using unit squares by activating the Grids on PhotoShop. For now I have created 4 shapes and these are inside gameobjects. Each of them consists of a combination of different square shapes. For example smallL shape, square shape etc.
 
-<p align="left">
-  <img src="https://user-images.githubusercontent.com/59045890/95026458-304cc580-069a-11eb-9d5b-d38549b71acc.png" width="400" title="hierarchy">
-</p>
+![hierarchy](https://user-images.githubusercontent.com/59045890/95026458-304cc580-069a-11eb-9d5b-d38549b71acc.png)
 
 For example; when I clicked the Shape1, I will see what shapes it consists of.
 
