@@ -18,11 +18,12 @@ When I run the program, my prefabs will appear on the screen. I wrote the approp
 
 #### Each object has Particular System. Particular System creates an explosion effect when exploding objects. I added Audio Source in addition to Particular System and every explosion to hear popping sound. Thus, when I detonate an object, I will see a visual explosion effect and hear an explosion sound.
 
-![f](https://user-images.githubusercontent.com/59045890/95026968-aef73200-069d-11eb-9732-7faea3f9e1d0.png)
-![f2](https://user-images.githubusercontent.com/59045890/95026969-b0285f00-069d-11eb-80a1-9dae329254a8.png)
-
-![f3](https://user-images.githubusercontent.com/59045890/95026970-b0c0f580-069d-11eb-8488-312557f52716.png)
-![f4](https://user-images.githubusercontent.com/59045890/95026971-b0c0f580-069d-11eb-8129-31139e122f18.png)
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/59045890/95026968-aef73200-069d-11eb-9732-7faea3f9e1d0.png" width="210" title="tld">
+  <img src="https://user-images.githubusercontent.com/59045890/95026969-b0285f00-069d-11eb-80a1-9dae329254a8.png" width="210" title="tld">
+  <img src="https://user-images.githubusercontent.com/59045890/95026970-b0c0f580-069d-11eb-8488-312557f52716.png" width="210" title="tld">
+  <img src="https://user-images.githubusercontent.com/59045890/95026971-b0c0f580-069d-11eb-8129-31139e122f18.png" width="210" title="tld">
+</p>
 
 The camera follows our hex along the y axis.
 When hex falls into space and hits colliders, the game will be over and the Try Again button will appear on the screen. I used Enum to leave the game at the last camera position. There are 2 situations here as Start and GameOver. As long as it is not GameOver, it can explode shapes and the camera will follow the hex. If there is a gameover, the Try Again Panel will be activated. The camera will take the final y-axis position of hex before it is game over and will not be able to explode any shapes in the back. If I didn't use such a condition, I would continue to explode shapes even if I was finished in the game.
