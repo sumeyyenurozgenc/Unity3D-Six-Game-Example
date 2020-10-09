@@ -3,7 +3,7 @@ https://github.com/sumeyyenurozgenc/Unity3D-Six-Game-Example/issues
 Hi everyone. I am going to talk about six! game. I tried to write it with my code style. This game is 2D. therefore objects and added components will be 2-dimensional. For example Rigidbody2D and BoxCollider2D.
 
 This is the first view of the project in Unity3D.
-<p align="center">
+<p align="left">
   <img src="https://user-images.githubusercontent.com/59045890/95026228-99333e00-0698-11eb-9973-9fa4a4d67132.png" width="800" title="hierarchy">
 </p>
 
