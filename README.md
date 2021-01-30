@@ -1,5 +1,4 @@
 # Unity3D-Six-Game-Example
-https://github.com/sumeyyenurozgenc/Unity3D-Six-Game-Example/issues
 Hi everyone. I am going to talk about six! game. I tried to write it with my code style. This game is 2D. therefore objects and added components will be 2-dimensional. For example Rigidbody2D and BoxCollider2D.
 
 This is the first view of the project in Unity3D.
@@ -47,3 +46,4 @@ When hex falls into space and hits colliders, the game will be over and the Try 
 This script is in Main Camera. Its purpose is to follow the hex and create shapes without running the program.
 
 ![FollowHex](https://user-images.githubusercontent.com/59045890/95594667-eece6880-0a53-11eb-9673-7f3516daff8e.png)
+
